@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar {
+    background-color: #232f3e;
+    height: 60px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* For box 1 */
+
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+    background-color: #232f3e;
+
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* For box 2 */
+
+.nav-location {
+    background-color: #232f3e;
+    height: 50px;
+    width: 85px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+.address1{
+    font-size: 0.8rem;
+    color: #cccccc;
+    /* margin-left: 30px; */
+    margin-top: 7px;
+}
+
+.address2{
+    font-size: 1rem;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* For box 3 */
+
+.nav-search {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 610px;
+    height: 42px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(255, 174, 0);;
+}
+
+
+.search-select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 45px;
+    height: 39.5px;
+    text-align: center;
+}
+
+.search-input {
+    
+    width: 550px;
+    font-size: 1rem;
+    border: none;
+    height: 36px;
+    
+}
+
+.search-icon{
+    display: flex;
+    width: 90px;
+    height: 38px;
+    justify-content:center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 174, 0);
+    color: #0f1111;
+}
+
+/* For box 4 */
+
+.nav-sing-in{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 200px;
+}
+
+.sign-in1{
+    font-size: 0.7rem;
+}
+
+.sign-in2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.down-sign{
+    font-size: 0.5rem;
+    display: flex;
+}
+
+/* For box 5 */
+
+.nav-ro{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+
+.ro1{
+    font-size: 0.7rem;
+}
+
+.ro2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* For box 6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* 1st nav bar finish here */
+
+.navbar2{
+    background-color: #0f1111;
+    height: 42px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* For box 1 */
+
+.navbar2-menu{
+    font-size: normal;
+    font-weight: 700;
+}
+
+/* For box 2 */
+
+.navbar2-options{
+    height: 40px;
+    width: 70%;
+    font-size: 0.85rem;
+    align-items: center;
+    display: flex;
+}
+
+.navbar2-options a {
+
+    margin-left: 20px;
+}
+
+/* For box 3 */
+
+.navbar2-offer{
+    height: 34px;
+    align-items: center;
+    display: flex; 
+    font-weight: 700;
+    margin-left: 180px;
+    margin-right: 1px;
+}
+
+/* Header of this page finish here */
+
+.Hero-section{
+    background-image: url(/hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1%;
+}
+
+.Hero-message{
+    background-color: white;
+    width: max-content;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 0.85rem;
+}
+
+.Hero-message a{
+    color: black;
+}
+
+/* main section starts from here */
+
+.shopping-content-master{
+background-color: rgb(217, 217, 217);
+height: 700;
+}
+
+.shopping-content-1{
+    background-color: rgb(217, 217, 217);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.shopping-content-2{
+    background-color: rgb(217, 217, 217);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#shopping-content{
+    border: 2px solid transparent;
+    height: 280px;
+    width: 25%;
+    background-color: white;
+    margin: 1%;
+    padding: 3px;
+}
+
+/* now we will add every box of = shopping-content-master  */
+
+/* For box 1 */
+
+.shopping-content-1 a{
+    color: black;
+}
+
+.shopping-content1-image{
+    background-image: url(/box1_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 2 */
+
+.shopping-content-2 a{
+    color: black;
+}
+
+.shopping-content2-image{
+    background-image: url(/box2_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 3 */
+
+.shopping-content-3 a{
+    color: black;
+}
+
+.shopping-content3-image{
+    background-image: url(/box3_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 4 */
+
+.shopping-content-4 a{
+    color: black;
+}
+
+.shopping-content4-image{
+    background-image: url(/box4_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 5 */
+
+.shopping-content-5 a{
+    color: black;
+}
+
+.shopping-content5-image{
+    background-image: url(/box5_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 6 */
+
+.shopping-content-6 a{
+    color: black;
+}
+
+.shopping-content6-image{
+    background-image: url(/box6_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 7 */
+
+.shopping-content-7 a{
+    color: black;
+}
+
+.shopping-content7-image{
+    background-image: url(/box7_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* For box 8 */
+
+.shopping-content-8 a{
+    color: black;
+}
+
+.shopping-content8-image{
+    background-image: url(/box8_image.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+/* main section finish here */
+
+.signin-strip{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    line-height: 15px;
+}
+
+.signin-reminder{
+    font-size: 0.75rem;
+
+}
+
+.signin-reminder p {
+color: black;
+font-size: 0.75rem;
+}
+
+.signin-button{
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    background-color: rgb(255, 199, 94);
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+/* Footer starts here */
+
+.Back-on-top{
+    color: white;
+    background-color: #232f3e;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    padding: 1%;
+}
+
+.options-footer{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    line-height: 25px;
+}
+
+.options-footer a {
+    background-color: #232f3e;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+}
+
+.options-footer p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.options-footer ul{ 
+    
+    list-style-type: none;
+}
+
+.options-footer a:hover {
+    text-decoration: underline white;
+}
+
+.last-footer{
+    background-color: #232f3e;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-logo-border{
+    height: 50px;
+    width: 110px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+    background-color: #232f3e;
+
+}
+
+.lastest-footer{
+    background-color: #131e2b;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.lastest-footer1{
+    font-size: 0.75rem;
+    width: 40%;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px;
+}
+
+.lastest-footer a:hover {
+    text-decoration: underline white;
+}
+
