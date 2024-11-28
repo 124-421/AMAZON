@@ -170,6 +170,12 @@ a {
     font-weight: 700;
 }
 
+@media (max-width: 300px) {
+    .navbar {
+      display: fixed;
+    }
+}
+
 /* 1st nav bar finish here */
 
 .navbar2{
@@ -214,10 +220,16 @@ a {
     margin-right: 1px;
 }
 
+@media (max-width: 300px) {
+    .navbar2 {
+      display: fixed;
+    }
+}
+
 /* Header of this page finish here */
 
 .Hero-section{
-    background-image: url(/hero_image.jpg);
+    background-image: url(/Projects/AMAZON/hero_image.jpg);
     background-size: cover;
     height: 300px;
     display: flex;
@@ -241,6 +253,12 @@ a {
 
 .Hero-message a{
     color: black;
+}
+
+@media (max-width: 300px) {
+    .Hero-section {
+      display: fixed;
+    }
 }
 
 /* main section starts from here */
@@ -286,7 +304,7 @@ height: 700;
 }
 
 .shopping-content1-image{
-    background-image: url(/box1_image.jpg);
+    background-image: url(/Projects/AMAZON/box1_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -298,7 +316,7 @@ height: 700;
 }
 
 .shopping-content2-image{
-    background-image: url(/box2_image.jpg);
+    background-image: url(/Projects/AMAZON/box2_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -310,7 +328,7 @@ height: 700;
 }
 
 .shopping-content3-image{
-    background-image: url(/box3_image.jpg);
+    background-image: url(/Projects/AMAZON/box3_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -322,7 +340,7 @@ height: 700;
 }
 
 .shopping-content4-image{
-    background-image: url(/box4_image.jpg);
+    background-image: url(/Projects/AMAZON/box4_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -334,7 +352,7 @@ height: 700;
 }
 
 .shopping-content5-image{
-    background-image: url(/box5_image.jpg);
+    background-image: url(/Projects/AMAZON/box5_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -346,7 +364,7 @@ height: 700;
 }
 
 .shopping-content6-image{
-    background-image: url(/box6_image.jpg);
+    background-image: url(/Projects/AMAZON/box6_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -358,7 +376,7 @@ height: 700;
 }
 
 .shopping-content7-image{
-    background-image: url(/box7_image.jpg);
+    background-image: url(/Projects/AMAZON/box7_image.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -370,9 +388,21 @@ height: 700;
 }
 
 .shopping-content8-image{
-    background-image: url(/box8_image.jpg);
+    background-image: url(/Projects/AMAZON/box8_image.jpg);
     background-size: cover;
     height: 180px;
+}
+
+@media (max-width: 300px) {
+    .shopping-content-master {
+      display: fixed;
+    }
+}
+
+@media (max-width: 300px) {
+    .shopping-content-1, .shopping-content-2 {
+      display: fixed;
+    }
 }
 
 /* main section finish here */
@@ -404,6 +434,12 @@ font-size: 0.75rem;
     width: 60px;
     height: 25px;
     border-radius: 5px;
+}
+
+@media (max-width: 300px) {
+    .signin-strip{
+      display: fixed;
+    }
 }
 
 /* Footer starts here */
